@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.social a{
+    margin-right: 20px;
+}
+
+header {
+    background-color: #ecf6fe;
+}
+header p{
+    font-size: 15px;
+line-height: 35px;
+color: #008aff;
+font-weight: 300;
+font-family: "Josefin Sans";
+}
+nav ul a{
+    font-size: 16px;
+color: #008aff;
+font-weight: 400;
+font-family: "Josefin Sans"
+
+
+}
+nav li {
+    list-style: none;
+    list-style-type: none;
+  
+}
+
+nav li a.active, nav li a:hover{
+    background-color: #008aff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+nav li a#active{
+    background-color: #ffe824;
+     padding: 10px 30px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 30px;
+}
+nav .hamburger-menu i{
+    color: #008aff;
+    font-size: 2rem;
+}
+
+.navbod {
+    background-image: url('img/Layer\ 3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+
+
+.med h4 {
+    font-size: 33px;
+color: #008aff;
+font-weight: 300;
+font-family: "Josefin Sans";
+margin-top: 205px;
+
+}
+.med h3 {
+    font-size: 68px;
+color: #13287e;
+font-weight: 400;
+font-family: "Josefin Sans";
+}
+.med p {
+    max-width: 675px;
+font-size: 20px;
+line-height: 35px;
+color: #474747;
+font-weight: 300;
+font-family: "Josefin Sans";
+}
+.med button {
+    margin-top: 50px;
+    width: 219px;
+height: 67px;
+border-radius: 33px;
+background-color: #ffe824;
+font-size: 14px;
+color: #474747;
+font-weight: 400;
+font-family: "Josefin Sans";
+}
+.comre {
+    margin-top: 60px;
+    background-color: #f9f9f9;
+    padding-bottom: 130px;
+   
+}
+.comre h4 {
+    text-align: center;
+    font-size: 33px;
+color: #008aff;
+font-weight: 400;
+font-family: "Josefin Sans";
+
+}
+.comre h5 {
+    text-align: center;
+    font-size: 20px;
+color: #474747;
+font-weight: 300;
+font-family: "Josefin Sans";
+}
+.comre img {
+    border-radius:70px 0 70px 0;
+    font-size: 50%;
+}
+.comre2 img {
+    border-radius:0 70px 0 70px;
+}
+.comre p {
+    margin: 50px 0;
+    width: 515px;
+height: 58px;
+font-size: 20px;
+line-height: 35px;
+color: #474747;
+font-weight: 300;
+font-family: "Josefin Sans";
+
+}
+
+.hor {
+    width: 4px !important;
+    height: 600px !important;
+    background-color: #eee;
+}
+.comre ul li {
+    
+font-size: 17px;
+line-height: 35px;
+color: #008aff;
+font-weight: 300;
+font-family: "Josefin Sans";
+}
+.comre button {
+    display: block;
+   margin: auto !important;
+    font-size: 14px;
+color: #474747;
+font-weight: 400;
+font-family: "Josefin Sans";
+/* margin: 50px 0 130px 0 !important; */
+}
+.choose img{
+    display: block;
+    margin: auto;
+}
+
+
+.choose{
+    background-color: #f9f9f9;
+}
+
+.choose-img{
+    background-color: #fff;
+    filter: drop-shadow(0px 16px 34px rgba(179, 179, 179, 0.15));
+    max-width: 213px;
+    height: 213px;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    top: -100px;
+}
+
+.choose-img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.choose hr{
+    margin: 0;
+}
+
+.choose h3 {
+    text-align: center;
+    font-size: 33px;
+color: #13287e;
+font-weight: 400;
+font-family: "Josefin Sans";
+}
+.chosimg h4 {
+    margin: 55px 0;
+text-align: center;
+font-size: 28px;
+color: #13287e;
+font-weight: 400;
+font-family: "Josefin Sans";
+}
+.chosimg p{
+    margin-bottom: 300px;
+    width: 264px;
+font-size: 19px;
+line-height: 33px;
+color: #474747;
+font-weight: 300;
+font-family: "Josefin Sans";
+text-align: center;
+}
+
+
+.customer{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('img/Layer\ 7.png');
+}
+
+.customer h2 {
+    padding-top: 80px;
+text-align: center;
+font-size: 33px;
+color: #13287e;
+font-weight: 400;
+font-family: "Josefin Sans";
+}
+.customer p {
+    margin: auto;
+    margin-top: 55px;
+    max-width: 675px;
+font-size: 20px;
+line-height: 35px;
+color: #474747;
+font-weight: 300;
+font-family: "Josefin Sans";
+/* text-align: center; */
+}
+.img-border {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 140px;
+    max-height: 140px;
+    border-radius: 50%;
+    background-color: #ecad42;
+    overflow: hidden;
+}
+
+.img-border img{
+    object-position: -24px -20px;
+}
+
+
+#nyc {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.customer h5 {
+    margin-top: 50px;
+    font-size: 19px;
+line-height: 23px;
+color: #f7b74d;
+font-weight: 400;
+font-family: "Josefin Sans";
+text-align: center;
+}
+
+
+.plan p{
+   max-width: 600px;
+/* height: 156px; */
+font-size: 17px;
+line-height: 35px;
+color: #474747;
+font-weight: 300;
+font-family: "Josefin Sans";
+text-align: center;
+
+}
+
+.plan .card:hover{
+    box-shadow: 5px 5px 15px rgb(223, 222, 222);
+    transition: all 1s;
+}
+
+
+.plan img {
+    display: block;
+    margin: auto;
+}
+.plan h5,h2 {
+    text-align: center;
+}
+.plan button {
+    display: block;
+    margin: auto;
+}
+.plan {
+    padding-bottom: 200px;
+}
+
+#lorip{
+    margin: auto;
+    padding: 50px 0;
+    width: 675px;
+/* height: 51px; */
+font-size: 20px;
+line-height: 35px;
+color: #474747;
+font-weight: 300;
+font-family: "Josefin Sans";
+text-align: center;
+}
+.client {
+    background-image: url('img/22\ \(1\).png');
+    
+}
+.client h1 {
+    text-align: center;
+    font-size: 48px;
+color: #13287e;
+font-weight: 600;
+font-family: "Josefin Sans";
+
+}
+.client img {
+    display: block;
+    /* text-align: center; */
+    margin: auto;
+    padding-bottom: 95px;
+}
+.client p {
+    margin: 50px 0;
+    text-align: center;
+    
+}
+.client button {
+    display: block;
+    margin: 50px 0;
+  margin: auto;
+   
+}
+.kart h2 {
+padding-top: 200px;
+padding-bottom: 35px;
+}
+.kart nav   {
+    /* display: block;
+    margin: auto; */
+    margin: 50px 0;
+}
+footer p{
+padding-top: 15px;
+   max-width: 1171px;
+font-size: 12px;
+color: #474747;
+font-weight: 300;
+font-family: "Josefin Sans";
+text-align: center;
+
+}
+footer h5 {
+    text-align: center;
+    font-size: 16px;
+line-height: 30px;
+color: #474747;
+font-weight: 300;
+font-family: "Josefin Sans";
+padding-top: 20px;
+}
+
+@media only screen and (max-width:768px){
+    #top-header{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social{
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .navbod nav ul{
+        display: none !important;
+    }
+
+    .med h3 {
+        font-size: 38px;
+    }
+
+}
+
+
+
+.contact form{
+display: flex;
+}
+
+ 
+.contact form input{
+    border: 1px solid rgb(153, 149, 149) !important;
+
+    border-right: none !important;
+    outline: none;
+}
+
+.form-btn{
+    background: transparent;
+    border: 1px solid rgb(153, 149, 149);
+
+    border-left:none !important ;
+
+}
+
+@media only screen and (max-width:992px){
+    .navbod{
+        background-image: none;
+    }
+
+    .chosimg p{
+        margin-bottom: 30px;
+    }
+}
